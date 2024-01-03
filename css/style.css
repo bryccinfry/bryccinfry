@@ -63,7 +63,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
-    font-smoothing: antialiased;
+    /* font-smoothing: antialiased; */
 }
 
 * {
@@ -211,10 +211,10 @@ select {
     border-radius: 5px;
 }
 
-table,
+/* table,
 th,
 tr,
-td {}
+td {} */
 
 th,
 tr,
@@ -853,7 +853,7 @@ blockquote cite:before {
         margin-left: 0px;
     }
 
-    .nav-scroll .logo {}
+    /* .nav-scroll .logo {} */
 
     .logo-img {
         margin-bottom: 0px;
@@ -1158,7 +1158,7 @@ blockquote cite:before {
 
   /* Styles for the modal content */
   .modal-content {
-    background-color: #fff;
+    background-color: #272727;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -1217,7 +1217,7 @@ blockquote cite:before {
     padding: 3px 0;
 }
 
-.social-left li:first-child {}
+/* .social-left li:first-child {} */
 
 .social-left li a {
     display: inline-block;
@@ -1332,9 +1332,9 @@ blockquote cite:before {
         font-size: 10px;
     }
 
-    .banner-header h5 {}
+    /* .banner-header h5 {}
 
-    .banner-header h1 {}
+    .banner-header h1 {} */
 
     .banner-header p {
         font-size: 20px;
@@ -1493,6 +1493,7 @@ blockquote cite:before {
 .about .about-img .img {
     padding: 0 15px 30px 30px;
     position: relative;
+    margin-top: 124px;
 }
 
 .about .about-img .img:before {
@@ -1627,7 +1628,7 @@ blockquote cite:before {
     font-size: 16px;
     line-height: 24px;
     display: block;
-    float: left;
+    /* float: left; */
     list-style: square;
     padding: 5px 0;
     display: inline-block;
@@ -1880,7 +1881,7 @@ blockquote cite:before {
 
 
 /* ======= Services style ======= */
-.services {}
+/* .services {} */
 
 .services .item {
     padding: 60px 30px;
@@ -1923,7 +1924,7 @@ blockquote cite:before {
     bottom: 30px;
     right: 30px;
     margin-bottom: 24px;
-    color: transparent;
+    /* color: transparent; */
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
     line-height: 1em;
 }
@@ -2083,7 +2084,7 @@ blockquote cite:before {
         padding: 25px 0
     }
 
-    .services2 .services2-text {}
+    /* .services2 .services2-text {} */
 }
 
 
@@ -2330,9 +2331,9 @@ blockquote cite:before {
     z-index: 2;
 }
 
-.services4 .square-container .box-title {
-    /*	width: 100%;*/
-}
+/* .services4 .square-container .box-title {
+    	width: 100%;
+} */
 
 .text-vertical {
     writing-mode: vertical-rl;
@@ -2674,7 +2675,7 @@ blockquote cite:before {
 
 /* ======= Projects2 style ======= */
 /* project masonry style */
-.project-masonry-wrapper-padding {}
+/* .project-masonry-wrapper-padding {} */
 
 .project-masonry-wrapper {
     width: 100%;
@@ -2796,7 +2797,7 @@ blockquote cite:before {
 }
 
 /* ======= Projects3 style ======= */
-.bauen-project {}
+/* .bauen-project {} */
 
 .bauen-project-section {
     padding-top: 120px;
@@ -3079,7 +3080,7 @@ blockquote cite:before {
 }
 
 
-.bauen-gallery-items .col-md-6 {}
+/* .bauen-gallery-items .col-md-6 {} */
 
 .bauen-gallery-items .col-md-6:nth-child(2) {
     margin-top: 0px;
@@ -3679,7 +3680,7 @@ button.mfp-arrow {
 .bauen-blog .item img {
     -webkit-transition: all .5s;
     transition: all .5s;
-    -webkit-filter: brightness(100%);
+    /* -webkit-filter: brightness(100%); */
 }
 
 .bauen-blog .item .con {
